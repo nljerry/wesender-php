@@ -1,0 +1,15 @@
+name: Packagist webhook
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Packagist update webhook
+        run: |
+          curl -s -X POST \
+            "https://packagist.org/api/update-package?username=wesender&apiToken=${{ secrets.PACKAGIST_TOKEN }}" \
+            -d '{"repository":{"url":"https://github.com/nljerry/wesender-php"}}'
