@@ -1,0 +1,10 @@
+{
+  "name":        "wesender/wesender",
+  "description": "Officiële PHP SDK voor de WeSender e-mail API",
+  "type":        "library",
+  "license":     "MIT",
+  "require":     { "php": ">=8.0", "ext-curl": "*", "ext-json": "*" },
+  "autoload":    { "psr-4": { "Wesender\\": "src/" } },
+  "homepage":    "https://wesender.nl",
+  "support":     { "issues": "https://github.com/nljerry/wesender-php/issues" }
+}
