@@ -42,4 +42,4 @@ PHP 8.0+, ext-curl, ext-json
 ## Links
 
 - [Documentatie](https://wesender.nl/docs/sdks/php)
-- [Issues](https://github.com/nljerry/wesender-php/issues)
+- [Issues](https://github.com/wesender/wesender-php/issues)
